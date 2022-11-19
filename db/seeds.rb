@@ -19,7 +19,7 @@ Book.destroy_all
     suffix: Faker::University.suffix    
     )
    
-    3.times do |integer|
+    2.times do |integer|
     university.books.create( 
     title: Faker::Book.title,
     author: Faker::Book.author,
