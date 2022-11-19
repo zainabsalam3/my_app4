@@ -1,3 +1,4 @@
+json.educators do
 json.array!(@educators) do |educator|
 json.id educator.id
 json.degree educator.degree
@@ -25,6 +26,7 @@ json.publisher book.publisher
 json.genre book.genre
 json.year book.year
 
+end
 end
 end
 end
